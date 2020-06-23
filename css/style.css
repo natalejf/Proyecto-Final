@@ -1,0 +1,215 @@
+/* Elementos Basicos */
+.bg-pink {
+  background-color: #EA899A; }
+
+.nav {
+  border-bottom: 1px solid #EAEAEB;
+  height: 70px;
+  line-height: 70px;
+  display: flex;
+  justify-content: flex-end; }
+
+.navbar-brand {
+  position: absolute;
+  padding: 0px;
+  left: 5px; }
+
+.logo {
+  width: 170px;
+  height: 62px; }
+
+.menu {
+  margin-bottom: 0 30px 0 0; }
+  .menu a {
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    margin: 0 10px;
+    line-height: 70px; }
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px; }
+
+#toggle {
+  display: none; }
+
+/* Elementos Especificos */
+/* Inicio */
+h2 {
+  font-family: "Oswald", sans-serif; }
+
+/*Productos Off (index)*/
+#galeria .col-lg-4 {
+  padding: 25px;
+  margin: 0px; }
+
+#galeria img {
+  width: 100%;
+  height: 315px; }
+
+#galeria img:hover {
+  cursor: pointer;
+  border: 5px solid #EA899A; }
+
+#galeria .btn {
+  margin-bottom: 10px;
+  border-radius: 10px; }
+
+#galeria .btn:hover {
+  background-color: #EA899A; }
+
+/* Productos */
+#productos {
+  width: 900px;
+  margin: auto;
+  font-family: "Oswald", sans-serif; }
+  #productos img {
+    width: 100%;
+    box-shadow: 2px 2px 5px #999; }
+  #productos a {
+    font-size: 25px;
+    font-weight: bold; }
+
+#macetas {
+  position: absolute;
+  top: 60px;
+  left: 60px; }
+
+#decoracion {
+  position: absolute;
+  top: 60px;
+  right: 60px; }
+
+#cocina {
+  position: absolute;
+  top: 60px;
+  left: 60px; }
+
+#mates {
+  position: absolute;
+  top: 60px;
+  right: 60px; }
+
+#cuidadopersonal {
+  position: absolute;
+  top: 60px;
+  left: 60px; }
+
+/* Contacto */
+.card-contacto {
+  height: 450px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+#formulario h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #FFF;
+  font-family: "Oswald", sans-serif; }
+
+#formulario input, #formulario textarea {
+  margin-bottom: 20px; }
+
+b {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px; }
+
+#message {
+  width: 200px;
+  height: 150px; }
+
+#mapa {
+  width: 100%;
+  height: 350px;
+  border: 1px solid #FFF;
+  border-radius: 20px; }
+
+#local {
+  font-family: "Oswald", sans-serif; }
+  #local img {
+    width: 200px;
+    height: 150px; }
+
+#redes a, #redes ion-icon {
+  color: #FFF;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer; }
+
+/*Acerca de Nosotros*/
+#nosotros {
+  font-family: "Oswald", sans-serif; }
+  #nosotros img {
+    margin: auto;
+    width: 400px;
+    height: 270px; }
+
+#clientes img {
+  margin: auto;
+  width: 850px;
+  height: 270px; }
+
+/* Mayoristas */
+.seccion-mayoristas {
+  position: absolute;
+  top: 200px;
+  left: 5px;
+  color: white; }
+  .seccion-mayoristas h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+    animation-duration: 3s;
+    animation-name: titulo-slide; }
+
+@keyframes titulo-slide {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+/* Responsive */
+@media only screen and (max-width: 479px) {
+  label {
+    display: block;
+    cursor: pointer; }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    z-index: 1; }
+    .menu a {
+      display: block;
+      border-bottom: 1px solid #EAEAEB; }
+  #toggle:checked + .menu {
+    display: block;
+    background-color: #FFF; }
+  #galeria img {
+    height: 400px;
+    width: 100%; } }
+
+@media (min-width: 480px) and (max-width: 767px) {
+  label {
+    display: block;
+    cursor: pointer; }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    z-index: 1; }
+    .menu a {
+      display: block;
+      border-bottom: 1px solid #EAEAEB; }
+  #toggle:checked + .menu {
+    display: block;
+    background-color: #FFF; }
+  #galeria img {
+    height: 450px;
+    width: 100%; } }
