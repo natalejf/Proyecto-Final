@@ -89,6 +89,56 @@ h2 {
 
 }
 
+#ContenidoDos {
+	
+	p {
+		font-size: 30px;
+		font-weight: bold;
+		font-family: $font;
+	}
+}
+
+#mercadopago {
+	img {
+	width: 120px;
+	height: 90px;
+	margin: auto;
+	}
+	img:hover {
+		cursor: pointer;
+	}
+}
+
+#rapipago {
+	img {
+	width: 210px;
+	height: 50px;
+	margin: auto;
+	}
+	img:hover {
+		cursor: pointer;
+	}
+}
+
+#tarjetas {
+	img {
+		width: 140px;
+		height: 90px;
+		margin: auto;
+	}
+	img:hover {
+		cursor: pointer;
+	}
+}
+
+#codigoqr {
+	img {
+		width: 120px;
+		height: 120px;
+		margin: auto;
+	}
+}
+
 /*Productos Off*/
 
 #galeria {
@@ -266,7 +316,34 @@ b {
 
 /* Mayoristas */
 
+#mayoristas {
 
+	p {
+		font-family: $font;
+	}
+
+	h1 {
+		font-size: 50px;
+		font-family: $font;
+
+	}
+	
+	h3 {
+		font-size: 40px;
+		font-weight: bold;
+		font-family: $font;
+	}
+
+	img {
+		width: 150px;
+		height: auto;
+		margin: auto;
+	}
+}
+
+#mayoristas-dos {
+	display: none;
+}
 
 
 /* Responsive */
@@ -298,6 +375,12 @@ b {
 		width: 100%;
 	}
 
+	footer {
+		#navegadorF {
+			text-align: center;
+		}
+	}
+
 
 	//Productos 
 
@@ -313,6 +396,23 @@ b {
 			display: none;
 		}
 	}
+
+	//Mayoristas 
+	
+	#mayoristas {
+		display: none;
+	}
+
+	#mayoristas-dos {
+		display: block;
+
+		img {
+			width: 150px;
+			height: auto;
+			margin: auto;
+		}
+	}
+
 }
 //Celulares - Tablets
 @media (min-width: 480px) and (max-width: 767px){
@@ -342,6 +442,7 @@ b {
 		width: 100%;
 		margin: auto;
 	}
+
 
 	//Productos 
 

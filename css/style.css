@@ -54,6 +54,40 @@ h2 {
   font-family: "Oswald", sans-serif;
   font-weight: bold; }
 
+#ContenidoDos p {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif; }
+
+#mercadopago img {
+  width: 120px;
+  height: 90px;
+  margin: auto; }
+
+#mercadopago img:hover {
+  cursor: pointer; }
+
+#rapipago img {
+  width: 210px;
+  height: 50px;
+  margin: auto; }
+
+#rapipago img:hover {
+  cursor: pointer; }
+
+#tarjetas img {
+  width: 140px;
+  height: 90px;
+  margin: auto; }
+
+#tarjetas img:hover {
+  cursor: pointer; }
+
+#codigoqr img {
+  width: 120px;
+  height: 120px;
+  margin: auto; }
+
 /*Productos Off*/
 #galeria .col-lg-4 {
   padding: 25px;
@@ -174,6 +208,26 @@ b {
   font-family: "Oswald", sans-serif; }
 
 /* Mayoristas */
+#mayoristas p {
+  font-family: "Oswald", sans-serif; }
+
+#mayoristas h1 {
+  font-size: 50px;
+  font-family: "Oswald", sans-serif; }
+
+#mayoristas h3 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif; }
+
+#mayoristas img {
+  width: 150px;
+  height: auto;
+  margin: auto; }
+
+#mayoristas-dos {
+  display: none; }
+
 /* Responsive */
 @media only screen and (max-width: 479px) {
   label {
@@ -193,12 +247,22 @@ b {
   #galeria img {
     height: 400px;
     width: 100%; }
+  footer #navegadorF {
+    text-align: center; }
   #productos {
     width: 340px; }
     #productos img:hover {
       transform: scale(0.9); }
     #productos a {
-      display: none; } }
+      display: none; }
+  #mayoristas {
+    display: none; }
+  #mayoristas-dos {
+    display: block; }
+    #mayoristas-dos img {
+      width: 150px;
+      height: auto;
+      margin: auto; } }
 
 @media (min-width: 480px) and (max-width: 767px) {
   label {
