@@ -21,6 +21,12 @@ $font: 'Oswald', sans-serif;
 	color: #FFF;
 }
 
+.IniciarSesion:hover {
+	color: #FFF;
+	transform: scale(0.8);
+	text-decoration: none;
+}
+
 .nav {
 	border-bottom: 1px solid #EAEAEB;
 	height: 70px;
@@ -51,6 +57,11 @@ $font: 'Oswald', sans-serif;
 	margin: 0 10px;
 	line-height: 70px;
 	}
+
+	a:hover {
+		text-decoration: none;
+		color: #343a40;
+	}
 	
 }
 
@@ -64,6 +75,33 @@ label {
 
 #toggle {
 	display: none;
+}
+
+#codigoqr {
+	img {
+		width: 120px;
+		height: 120px;
+		margin: auto;
+	}
+
+	img:hover {
+		cursor: pointer;
+		transform: scale(1.2);
+	}
+}
+
+footer {
+	a {
+		color: #FFF;
+		font-size: 20px;
+		font-family: $font;
+	}
+
+	a:hover {
+		color: #343a40;
+		transform: scale(1.1);
+		text-decoration: none;
+	}
 }
 
 
@@ -131,13 +169,6 @@ h2 {
 	}
 }
 
-#codigoqr {
-	img {
-		width: 120px;
-		height: 120px;
-		margin: auto;
-	}
-}
 
 /*Productos Off*/
 
@@ -219,6 +250,96 @@ h2 {
 }
 
 
+/*Acerca de Nosotros*/
+
+#AcercaDeNosotros {
+	font-family: $font;
+
+	strong {
+		color: $color;
+	}
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+
+	p {
+		font-size: 30px;
+	}
+}
+
+#carousel {
+	background-color: rgba(0, 0, 0, 0.6);
+	
+	h1 {
+		text-decoration: underline;
+		font-weight: bold;
+		font-family: $font;
+		font-size: 50px;
+	}
+
+	h5 {
+		font-family: $font;
+	}
+
+	.card {
+		max-width: 540px;
+	}
+}
+
+.linea-final {
+	padding-top: 60px;
+}
+
+.team {
+	img {
+		margin: auto;
+		border-radius: 10px $color;
+	}
+}
+
+
+/* Mayoristas */
+
+#mayoristas {
+
+	a {
+		color: $color;
+	}
+
+	a:hover {
+		text-decoration: none;
+		color: #343a40;
+	}
+
+	p {
+		font-family: $font;
+	}
+
+	h1 {
+		font-size: 50px;
+		font-family: $font;
+
+	}
+	
+	h3 {
+		font-size: 40px;
+		font-weight: bold;
+		font-family: $font;
+	}
+
+	img {
+		width: 150px;
+		height: auto;
+		margin: auto;
+	}
+}
+
+#mayoristas-dos {
+	display: none;
+}
+
 /* Contacto */
 
 .card-contacto {
@@ -275,74 +396,18 @@ b {
 }
 
 #redes {
+
+	margin: auto;
+
+	ion-icon {
+		font-size: 60px;
+	}
+
 	a, ion-icon {
 	color: #FFF;
-	margin-top: 5px;
-	margin-right: 20px;
-	margin-left: 20px;
+	margin: auto;
 	cursor: pointer;
 }
-}
-
-/*Acerca de Nosotros*/
-
-#AcercaDeNosotros {
-	font-family: $font;
-
-	strong {
-		color: $color;
-	}
-
-	img {
-		width: 100%;
-		height: 100%;
-	}
-}
-
-#carousel {
-	
-	h1 {
-		text-decoration: underline;
-		font-weight: bold;
-		font-family: $font;
-		font-size: 50px;
-	}
-
-	h5 {
-		font-family: $font;
-	}
-}
-
-
-/* Mayoristas */
-
-#mayoristas {
-
-	p {
-		font-family: $font;
-	}
-
-	h1 {
-		font-size: 50px;
-		font-family: $font;
-
-	}
-	
-	h3 {
-		font-size: 40px;
-		font-weight: bold;
-		font-family: $font;
-	}
-
-	img {
-		width: 150px;
-		height: auto;
-		margin: auto;
-	}
-}
-
-#mayoristas-dos {
-	display: none;
 }
 
 
@@ -405,6 +470,15 @@ b {
 
 	#mayoristas-dos {
 		display: block;
+
+		a {
+			color: $color;
+		}
+
+		a:hover {
+		text-decoration: none;
+		color: #343a40;
+		}
 
 		img {
 			width: 150px;
